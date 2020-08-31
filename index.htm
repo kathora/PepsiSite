@@ -16,7 +16,7 @@
                 <li><a href="#">What's New</a></li>
                 <li><a href="#">Newsletter</a></li>
                 <li><a href="#">Contact</a></li>
-            </ul>
+            </ul> 
         </header>
         <div class="content">
             <div class="textBox">
@@ -32,9 +32,9 @@
             </div>
         </div>
         <ul class="thumb">
-            <li><img src="img/pepsi001.png" alt=""></li>
-            <li><img src="img/pepsi002.png" alt=""></li>
-            <li><img src="img/pepsi003.png" alt=""></li>
+            <li id="one"><img src="img/pepsi001.png" onclick="imgSlider('img/pepsi001.png'); changeBgColor('#0062be')"></li>
+            <li id="two"><img src="img/pepsi002.png"  onclick="imgSlider('img/pepsi002.png'); changeBgColor('#e60c2c')"></li>
+            <li id="three"><img src="img/pepsi003.png"  onclick="imgSlider('img/pepsi003.png'); changeBgColor('#1e1e1e')"></li>
         </ul>
         <ul class="sci">
             <li><a href="#"><img src="img/facebook.png" alt=""></a></li>
@@ -42,5 +42,6 @@
             <li><a href="#"><img src="img/instagram.png" alt=""></a></li>
         </ul>
     </section>
+    <script src="app.js"></script>
 </body>
 </html>
