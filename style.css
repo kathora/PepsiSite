@@ -312,3 +312,31 @@ img {
     letter-spacing: 1px;
     font-weight: 600;
 }
+
+footer{
+    min-height: 5vh;
+    background: white;
+    padding-left: 10%;
+    padding-right: 10%; 
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.iconsFooter{
+    display: flex;
+    align-items: center;
+    list-style: none;
+}
+
+.icon{
+    justify-content: space-evenly;
+    margin-right: 20px;
+    padding: 10px;
+}
+
+.logoFooter{
+    flex: 3;
+    max-width: 200px;
+    padding: 10px;
+}
